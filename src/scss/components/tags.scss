@@ -1,0 +1,17 @@
+.tags{
+    display: flex;
+    gap: 8px;
+
+    flex-wrap: wrap;
+}
+.tags__item{
+    background-color: #222222;
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 133%;
+    color: #fff;
+}
+

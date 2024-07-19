@@ -1,0 +1,67 @@
+.poster{
+
+    padding: 80px 40px;
+  }
+
+.poster__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;    
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-top: 44px;
+    grid-auto-rows: minmax(480px, auto);
+}
+
+.poster-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 36px 24px ;
+    flex-wrap: wrap;
+    img{
+        object-fit:cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        border-radius: 12px;
+    }
+
+    &--big{
+        grid-column: span 2;
+
+    }  
+    
+}
+
+.data{
+    margin: 0 0 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+.info{
+    margin: 0 0 16px;
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: #fff;    
+}
+
+.poster__top__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    color: #000;
+}
+
+.poster-tag{
+    margin-bottom: 14px;
+}

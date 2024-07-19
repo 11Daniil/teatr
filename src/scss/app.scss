@@ -1,0 +1,66 @@
+@import "./reset.scss";
+@import "./fonts.scss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+
+
+// Add component
+@import "./components/component";
+@import "./components/slider";
+@import "./components/tags";
+@import "./components/button";
+@import "./components/text";
+@import "./components/cards";
+@import "./components/teatr";
+@import "./components/media";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/adaptiv";
+
+
+
+.page-container{
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top{
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap ;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 36px;
+}
+.poster__button{
+  padding: 8px 24px 8px 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.poster__button:hover{
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+*{
+  font-family: Gilroy;
+}

@@ -1,0 +1,243 @@
+@media(max-width: 1439px) {
+    .teatr__photo {
+        max-width: 355px;
+        max-height: 566px;
+    }
+    .teatr__photo img{
+        height: 405px;
+        width: 300px;
+    }
+    .teatr__background{
+        height: 405px;
+        width: 300px;
+
+    }
+}
+@media  (max-width: 1279px) {
+    .teatr__photo {
+        max-width: 280px;
+        max-height: 385px;
+    }
+    .teatr__photo img{
+        height: 315px;
+        width: 232px;
+    }
+    .teatr__background{
+        height: 315px;
+        width: 232px;
+
+    }
+    .teatr__text {
+        margin-bottom: 0%;
+    }
+}
+
+@media(max-width:1199px){
+    .header__nav{
+        margin-left: 10px;
+
+    }
+    .media__card img{
+    height: 220px;
+    }
+}
+@media (max-width: 1279px) {
+    .header__nav {
+        gap:10px;
+    }
+}
+@media (max-width: 1023px) {
+    .header__nav{
+        display: none;
+    }
+    .header__buttons .button{
+        display: none;
+    }
+    .burger{
+        display: initial;
+    }
+
+
+}
+@media (max-width: 991px) {
+    .poster{
+        padding: 40px 0;
+    }
+    .media{
+        margin: 40px 0;
+    }
+    .poster__cards {
+        grid-template-columns: repeat(5, 280px);
+        grid-auto-rows: minmax(360px, auto);
+        grid-auto-flow: unset;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        padding: 0 40px;
+
+    }
+    .top{
+        padding: 0 40px;
+    }
+
+    .poster-card--big{
+        grid-column: span 1;
+
+    }
+    .teatr__inner{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .teatr__photo{
+        max-width: 355px;
+        max-height: 566px;
+    }
+    .teatr__photo img{
+        height: 380px;
+        width: 284px;
+    }
+    .teatr__background{
+        height: 380px;
+        width: 284px;
+
+    }
+    .poster__button__item{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .button__top  .poster__button{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .teatr__h, .posetr__top__title, .media__h{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .media__inner{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .media__menu__info {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer__left {
+        width: 100%;
+        grid-template-columns: 49% 50%;
+        margin-bottom: 36px;
+        column-gap: 2.1%;
+        row-gap: 36px;
+    }
+    .footer__inner{
+        flex-direction: column;
+    }
+    .data {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .info{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .teatr__top{
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: start  ;
+    }
+    .media__cards {
+        grid-template-columns: 1fr;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .subtitle{
+        font-size: 12px;
+    }
+    .slider__content{
+        padding-left: 40px;
+    }
+    .teatr__text {
+        -webkit-line-clamp: 5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 24px; 
+
+        &.visible {
+        -webkit-line-clamp: initial;
+        display: initial;
+        -webkit-box-orient: initial;
+        overflow: initial;
+        }
+    }
+    .teatr__red-button{
+        display: block;
+    }
+    .swiper-button{
+        bottom: 20px;
+        top: initial;        
+    }
+    
+}
+@media (max-width: 575px) {
+    .poster, .media, .teatr, .footer, .slider__content, .header {
+        padding-left: 4.2666666667%;
+        padding-right: 4.2666666667%;
+    }
+
+    .teatr__top{
+        margin: 0;
+    }
+    .teatr__inner{
+        margin: 20px 0 0 0;
+    }
+    .menu__item{
+        justify-content: flex-end; 
+    
+    }
+    .mob-menu-overlay .mob-menu-inner a {
+        align-self: flex-end;
+    
+    }
+    .menu__button{
+        padding: 16px 16%;
+
+    }
+}
+
+@media (max-width: 374px) {
+    .about__photo_photo {
+        height: 315px;
+        width: 232px;
+    }
+    .teatr__photo{
+        max-width: 305px;
+        max-height: 506px;
+    }
+    .teatr__photo img{
+        height: 315px;
+        width: 232px;
+    }
+    .teatr__background{
+        height: 315px;
+        width: 232px;
+
+    }
+.poster__button__item{
+    font-size: 10px;
+}
+.teatr__top .button__top {
+    gap: 10px;
+}
+.teatr__inner{
+    margin-top: 20px;
+
+}
+}
+

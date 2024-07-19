@@ -1,0 +1,84 @@
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    padding: 40px 40px 20px;
+
+    &__inner{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    &__item{
+        color: white;
+    }
+    &__left{
+        width: 75%;
+        display: grid;
+        column-gap:28px;
+        row-gap: 40px;
+        grid-template-columns: 21% 20% 22% 27%;
+    }
+    
+    &__item__link{
+        font-size: 12px;
+        margin-bottom: 4px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: #fff; 
+    }
+
+    &__item__title{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #fff;
+    }
+
+}
+.footer__social__icon{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+.copirigth{
+    max-width: 331px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    color: #555;
+    margin-top: 36px;
+ }
+.footer__item{
+    flex-direction: column;
+    display: flex;
+}
+
+.footer__item__link, .footer__item__title{
+    transition: 0.2s;
+}
+ .footer__item__link:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #AD2717;
+ }
+
+ .footer__item__title:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #AD2717;
+ }
+ 
+.footer__social__icon a svg{
+    fill: #555555;
+    transition: 0.2s;
+}
+.footer__social__icon a :hover{
+    fill: #fff;
+    cursor: pointer;
+}
+
